@@ -1,7 +1,7 @@
 import Debug "mo:base/Debug";
 
-import Funtype "./custom";
-import Animal "./animal";
+import Funtype "custom";
+import Animal "animal";
 
 actor {
   let exercise : Funtype = {
