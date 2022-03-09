@@ -1,5 +1,5 @@
 module {
-    Public type Animal = {
+    public type Animal = {
         species : Text;
         energy : Nat;
     };
