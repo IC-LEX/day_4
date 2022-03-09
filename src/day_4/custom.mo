@@ -1,5 +1,5 @@
 module {
-    Public type Funtype = {
+    public type Funtype = {
         name : Text;
         desc : Text;
         example : Text;
