@@ -15,7 +15,7 @@ actor {
     example = "Tag";
     rating = "10";
   };
-  let exercise : Funtype = {
+  let learning : Funtype = {
     name = "Learning";
     description = "Discovering and growing appreciation and understanding for new concepts, skills or competencies";
     example = "Motoko bootcamp (it goes to 11)";
