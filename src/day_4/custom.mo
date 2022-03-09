@@ -1,8 +1,8 @@
 module {
     Public type Funtype = {
-        funtype_name : Text;
-        funtype_desc : Text;
-        funtype_example : Text;
-        funtype_rating : Text;
+        name : Text;
+        desc : Text;
+        example : Text;
+        rating : Text;
     };
 };

@@ -1,4 +1,5 @@
-import Funtype "funtype";
+import Funtype "custom.mo";
+import Animal; "animal.mo";
 
 actor {
   public type Person = Funtype.Funtype;
@@ -20,7 +21,23 @@ actor {
     example = "Motoko bootcamp (it goes to 11)";
     rating = "11";
   };
-Public func fun() : async Funtype{
+  
+  let pet : Animal = {
+    species = "Feline";
+    energy = "Chill";
+  };
+
+  let familiar : Animal = {
+    species = "Monkey";
+    energy = "Curious";
+  };  
+
+  let spirit : Animal = {
+    species = "Hawk";
+    energy = "Sanguine";
+  };  
+
+  Public func fun() : async Funtype{
   return(game);
-};
+  };
 };
