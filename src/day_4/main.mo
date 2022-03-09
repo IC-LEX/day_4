@@ -1,5 +1,5 @@
 import Funtype "custom.mo";
-import Animal; "animal.mo";
+import Animal "animal.mo";
 
 actor {
   public type Person = Funtype.Funtype;
