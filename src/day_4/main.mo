@@ -37,7 +37,7 @@ actor {
     energy = "Sanguine";
   };  
 
-  Public func fun() : async Funtype{
+  public func fun() : async Funtype{
   return(game);
   };
 };
