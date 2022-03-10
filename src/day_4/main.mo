@@ -60,13 +60,15 @@ actor {
   
   // create List to store animals
   // public type List<T> = ?(T, List<T>);
-  public type AnimalList = List.List<Animal>;
-  var animal_list : AnimalList;
+  //public type AnimalList = List.List<Animal>;
+  //var accounts = Types.accounts_fromArray(init.accounts);
+  //public animal_list : List<Animal> = ?(Animal List<Animal>)
+  var animal_list = List.nil<Animal>();
 
   // push_animal (into the list)
   public func push_animal(beast : Animal) : async {
     // beast is the animal to push
-    AnimalList.push(beast, animal_list);
+    animal_list :=List.push<Animal>(beast, animal_list);
   };
   
   // get_animals (return all the animals in the list)
