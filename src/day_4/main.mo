@@ -2,7 +2,9 @@ import Debug "mo:base/Debug";
 import List "mo:base/List";
 import Funtype "custom";
 import Animal "animal";
-type List<T> = List.List<T>;
+
+// type List<T> = List.List<T>;
+
 actor {
   public type Funtype = Funtype.Funtype;
   public type Animal = Animal.Animal;
