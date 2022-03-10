@@ -2,7 +2,6 @@ import Debug "mo:base/Debug";
 import List "mo:base/List";
 import Funtype "custom";
 import Animal "animal";
-import Type "mo:base/Type"';
 
 type List<T> = List.List<T>;
 
