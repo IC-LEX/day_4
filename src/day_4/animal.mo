@@ -10,6 +10,6 @@ module {
         species = beast.species;
         energy = beast.energy - 1;
         };
-     };
-        return(creature)};
+    return(creature);
+    };
 };
