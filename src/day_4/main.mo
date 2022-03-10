@@ -27,17 +27,17 @@ actor {
   
   let pet : Animal = {
     species = "Feline";
-    energy = "Chill";
+    energy = 4;
   };
 
   let familiar : Animal = {
     species = "Monkey";
-    energy = "Curious";
+    energy = 8;
   };  
 
   let spirit : Animal = {
     species = "Hawk";
-    energy = "Sanguine";
+    energy = 6;
   };  
 
   public func fun() : async Funtype{
