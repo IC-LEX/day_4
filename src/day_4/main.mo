@@ -62,7 +62,7 @@ actor {
   
   // public type List<T> = ?(T, List<T>);
   public type AnimalList = List.List<Animal>;
-  var animal_list := AnimalList;
+  var animal_list : AnimalList = null ;
 
   // push_animal (into the list)
   public func push_animal(beast : Animal) : async {
