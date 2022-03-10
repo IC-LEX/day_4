@@ -65,7 +65,7 @@ actor {
   //public type AnimalList = List.List<Animal>;
   //public animal_list : List<Animal> = ?(Animal List<Animal>)
   //let zeros = List.replicate<Elem>(n, { unbox = 0 });
-  var animal_list := List.nil<Animal>();
+  var animal_list := List.List<Animal>();
 
   // push_animal (into the list)
   public func push_animal(beast : Animal) : async {
