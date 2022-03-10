@@ -5,6 +5,7 @@ import Animal "animal";
 
 actor {
   public type Funtype = Funtype.Funtype;
+  public type Animal = Animal.Animal;
   let exercise : Funtype = {
     name = "Exercise";
     desc = "Physical exertion stressing the limits of personal fitness";
