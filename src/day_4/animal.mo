@@ -6,8 +6,8 @@ module {
     };
 
     public func animal_sleep(beast : Animal) : Animal {
-        var local_animal = beast;
-        local_animal.energy := beast.energy -10;
+        var local_animal : Animal = beast;
+        local_animal.energy := beast.energy - 10;
             return(local_animal);
     };
 };
