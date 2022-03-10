@@ -55,7 +55,7 @@ actor {
         species = s;
         energy = e;
         };
-    animal_sleep(creature);
+    Animal.animal_sleep(creature);
     return(creature);
   };
   
