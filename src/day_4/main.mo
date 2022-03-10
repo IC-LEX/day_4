@@ -68,7 +68,7 @@ actor {
   // push_animal (into the list)
   public func push_animal(beast : Animal) : async {
     // beast is the animal to push
-    List.push<Animal>(beast, animal_list);
+    AnimalList.push<Animal>(beast, animal_list);
   };
   
   // get_animals (return all the animals in the list)
