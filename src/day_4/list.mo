@@ -26,7 +26,7 @@ module {
 // significant workload and lookup time across
 // incrementally discovered // sources & resources
 // Lots of good opportunities for learnign content
-// development, design, improvement.
+// development, design, etc.
 
     public func last<T>(list : List<T>) : ?T{
     switch(list){
@@ -46,20 +46,11 @@ module {
     recursive(l,0)
     };    
 
-  /// Return the length of the list.
-//     public func size<T>(l : List<T>) : Nat {
-//         func rec(l : List<T>, n : Nat) : Nat {
-//             switch l {
-//                 case null { n };
-//                 case (?(_, t)) { rec(t, n + 1) };
-//       }
-//     };
-//     rec(l,0)
-//   };
-//     };
-    // func get(l:List<T>, n : Nat) : ?T{
-
-    // };
+    public func get(list : List<T>, index : Nat) : ?T{
+        func rec(list : List<T>, index : Nat) : ?T{
+            
+        };
+    };
 
     // func reverse(l:List<T>) : List<T>{
 
