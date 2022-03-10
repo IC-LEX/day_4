@@ -3,9 +3,9 @@ import List "mo:base/List";
 import Funtype "custom";
 import Animal "animal";
 
-type List<T> = List.List<T>;
+ type List<T> = List.List<T>;
 
-actor {
+ actor {
   public type Funtype = Funtype.Funtype;
   public type Animal = Animal.Animal;
   let exercise : Funtype = {
@@ -54,21 +54,21 @@ actor {
     return (Animal.animal_sleep(creature));
   };
   
-  // create List to store animals
-  //public type AnimalList = List.List<Animal>;
-  //public animal_list : List<Animal> = ?(Animal List<Animal>)
-  //let zeros = List.replicate<Elem>(n, { unbox = 0 });
+//   // create List to store animals
+//   //public type AnimalList = List.List<Animal>;
+//   //public animal_list : List<Animal> = ?(Animal List<Animal>)
+//   //let zeros = List.replicate<Elem>(n, { unbox = 0 });
 
-  var animal_list = List.List<Animal>();
+//   var animal_list = List.List<Animal>();
 
-  // push_animal (into the list)
- // public func push_animal(beast : Animal) : async {
-    // beast is the animal to push
-    //animal_list.push<Animal>(beast, animal_list)
-  //  };
+//   // push_animal (into the list)
+//  // public func push_animal(beast : Animal) : async {
+//     // beast is the animal to push
+//     //animal_list.push<Animal>(beast, animal_list)
+//   //  };
   
-  // get_animals (return all the animals in the list)
-  // public func get_animal() : async Array{
-  //   return animal_list<AnimalList>.toArray(animal_list));
-  // };
-};
+//   // get_animals (return all the animals in the list)
+//   // public func get_animal() : async Array{
+//   //   return animal_list<AnimalList>.toArray(animal_list));
+//   // };
+ };
