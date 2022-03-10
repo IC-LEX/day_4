@@ -55,8 +55,7 @@ actor {
         species = s;
         energy = e;
         };
-    Animal.animal_sleep(creature);
-    return(creature);
+    return (Animal.animal_sleep(creature));
   };
   
   // create List to store animals
