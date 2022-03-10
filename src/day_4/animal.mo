@@ -8,7 +8,7 @@ module {
     public func animal_sleep(beast : Animal) : Animal {
         let creature : Animal = {
         species = beast.species;
-        energy = beast.energy - 1;
+        energy = beast.energy - 10;
         };
     return(creature);
     };
