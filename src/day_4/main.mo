@@ -1,7 +1,10 @@
 import Debug "mo:base/Debug";
 
+import List "mo:base/List";
+
 import Funtype "custom";
 import Animal "animal";
+
 
 actor {
   public type Funtype = Funtype.Funtype;
@@ -43,4 +46,28 @@ actor {
   public func fun() : async Funtype{
   return(game);
   };
+
+  // Challenges 4, 5, 6
+
+  // create_animal_that_takes_a_break ()
+  public func create_animal_that_takes_a_break(s : Text, e : Nat) : async Animal{
+    let creature : Animal = {
+        species = s;
+        energy = e;
+        };
+    animal_sleep(creature);
+    return(creature);
+  };
+  
+  // create List to store animals
+
+
+  // push_animal (into the list)
+  // get_animals (return all the animals in the list)
+
+
+  
+
+
+  
 };
