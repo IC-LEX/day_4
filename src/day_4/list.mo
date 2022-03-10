@@ -48,7 +48,11 @@ module {
 
     public func get(list : List<T>, index : Nat) : ?T{
         func rec(list : List<T>, index : Nat) : ?T{
-            
+            // rip off the counter pattern - we're counting in to acces value
+            switch (index, list) {
+                case (_, null) {null}; // Nothing to give
+                case (0, (?(h, t))) { ?h }; // counted down to depth index
+                case (_, (?(_,t))) { get<T>(t, n-1)}; // More to plumb
         };
     };
 
