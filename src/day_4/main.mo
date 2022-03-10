@@ -5,8 +5,11 @@ import List "mo:base/List";
 import Funtype "custom";
 import Animal "animal";
 
+type List<T> = List.List<T>;
 
 actor {
+  
+
   public type Funtype = Funtype.Funtype;
   public type Animal = Animal.Animal;
   let exercise : Funtype = {
@@ -61,14 +64,14 @@ actor {
   // create List to store animals
   // public type List<T> = ?(T, List<T>);
   //public type AnimalList = List.List<Animal>;
-  //var accounts = Types.accounts_fromArray(init.accounts);
-  //public animal_list : List<Animal> = ?(Animal List<Animal>)
-  var animal_list = List.nil<Animal>();
+   //public animal_list : List<Animal> = ?(Animal List<Animal>)
+  //let zeros = List.replicate<Elem>(n, { unbox = 0 });
+  var animal_list : List<Animal> := List.nil<Animal>();
 
   // push_animal (into the list)
   public func push_animal(beast : Animal) : async {
     // beast is the animal to push
-    AnimalList.push<Animal>(beast, animal_list);
+    AnimalList.List.push<Animal>(beast, animal_list);
   };
   
   // get_animals (return all the animals in the list)
