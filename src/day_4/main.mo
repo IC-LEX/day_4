@@ -3,9 +3,7 @@ import List "mo:base/List";
 import Funtype "custom";
 import Animal "animal";
 
- type List<T> = List.List<T>;
-
- actor {
+actor {
   public type Funtype = Funtype.Funtype;
   public type Animal = Animal.Animal;
   let exercise : Funtype = {
@@ -58,7 +56,7 @@ import Animal "animal";
 //   //public type AnimalList = List.List<Animal>;
 //   //public animal_list : List<Animal> = ?(Animal List<Animal>)
 //   //let zeros = List.replicate<Elem>(n, { unbox = 0 });
-
+type List<T> = List.List<T>;
 //   var animal_list = List.List<Animal>();
 
 //   // push_animal (into the list)
