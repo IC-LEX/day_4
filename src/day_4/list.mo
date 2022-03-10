@@ -2,7 +2,7 @@
 public type List<T> = ?(T, List<T>);
 
 module {
-    func is_null<T>(l : List<T>) : Bool {
+    public func is_null<T>(l : List<T>) : Bool {
         if(l == null){
             return true;
         }else{
