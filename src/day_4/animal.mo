@@ -6,7 +6,7 @@ module {
     };
 
     public func animal_sleep(beast : Animal) : Animal {
-        beast.energy := beast.energy :=10;
-        return(beast);
-    }
+        let beast_energy : Nat = beast.energy -10;
+            return({beast.species; beast_energy);
+    };
 };
