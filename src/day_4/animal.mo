@@ -7,10 +7,7 @@ module {
 
     public func animal_sleep(beast : Animal) : Animal {
         var local_animal : Animal = beast;
-        local_animal := {
-            species := beast.species;
-            energy := beast.energy - 10;
-        };
+        local_animal.energy := (beast.energy - 10);
         return(local_animal);
     };
 };
