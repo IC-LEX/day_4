@@ -59,10 +59,20 @@ actor {
   };
   
   // create List to store animals
-
-
+  public type List.List<Animal>;
+  var animal_list;
+  
   // push_animal (into the list)
+  public func push_animal(beast : Animal) : async {
+    animal_list.push(beast);
+  };
+  
   // get_animals (return all the animals in the list)
+  public func get_animal() : async Array{
+    return(List.toArray(animal_list));
+  };
+  
+  
 
 
   
