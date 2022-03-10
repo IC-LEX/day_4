@@ -19,11 +19,11 @@ module {
     switch(list){
         case(null){return null};
         case(?last, null){return last};
-        case (?(_, t)) { last<T>(t) }; // recursive call
+        case (?(_, thelist)) { last<T>(thelist) }; // recursive call
         };    
      };
 
-    // func size(l : List<T>) : Nat{
+    public func size(l : List<T>) : Nat{
 
     // };
     // func get(l:List<T>, n : Nat) : ?T{
