@@ -6,19 +6,19 @@ import Animal "animal";
 actor {
   let exercise : Funtype = {
     name = "Exercise";
-    description = "Physical exertion stressing the limits of personal fitness";
+    desc = "Physical exertion stressing the limits of personal fitness";
     example = "Running around the block";
     rating = "10";
   };
   let game : Funtype = {
     name = "Game";
-    description = "Pro-social rule following collaboration with intrinsic incentives including enjoyable exploration of a complex or challenging individual or social/interactive activity";
+    desc = "Pro-social rule following collaboration with intrinsic incentives including enjoyable exploration of a complex or challenging individual or social/interactive activity";
     example = "Tag";
     rating = "10";
   };
   let learning : Funtype = {
     name = "Learning";
-    description = "Discovering and growing appreciation and understanding for new concepts, skills or competencies";
+    desc = "Discovering and growing appreciation and understanding for new concepts, skills or competencies";
     example = "Motoko bootcamp (it goes to 11)";
     rating = "11";
   };
