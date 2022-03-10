@@ -62,15 +62,17 @@ actor {
   
   // public type List<T> = ?(T, List<T>);
   public type AnimalList = List.List<Animal>;
-      
+  var animal_list : AnimalList;
+
   // push_animal (into the list)
   public func push_animal(beast : Animal) : async {
-    animal_list.push(beast);
+    // beast is the animal to push
+    AnimalList.push<Animal>(beast, animal_list);
   };
   
   // get_animals (return all the animals in the list)
   public func get_animal() : async Array{
-    return(List.toArray(animal_list));
+    return(AnimalList.toArray(animal_list));
   };
   
   
